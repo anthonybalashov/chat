@@ -207,6 +207,7 @@ public class Controller implements Initializable {
         }
     }
 
+    // PRIV MSG
     public void clientListClicked(MouseEvent mouseEvent) {
         System.out.println(clientList.getSelectionModel().getSelectedItem());
         String receiver = clientList.getSelectionModel().getSelectedItem();

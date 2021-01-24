@@ -47,6 +47,7 @@ public class Server {
         }
     }
 
+    // PRIV MSG
     public void privateMsg(ClientHandler sender, String receiver, String msg) {
         String message = String.format("[ %s ] to [ %s ]: %s", sender.getNickname(), receiver, msg);
         for (ClientHandler c : clients) {
